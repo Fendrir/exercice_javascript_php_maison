@@ -20,20 +20,20 @@
 
 // console.log(factoNonRecursive(10));
 
-function calculRecursive(n){
+// function calculRecursive(n){
     
-        // if(n<=1){
+//         // if(n<=1){
     
-        //     return 1;
+//         //     return 1;
     
-        // }
+//         // }
     
-        // return calculRecursive(n-1)*n;
-        return n<=1 ? 1 : calculRecursive(n-1)*n;
+//         // return calculRecursive(n-1)*n;
+//         return n<=1 ? 1 : calculRecursive(n-1)*n;
     
-    }
+//     }
     
-    console.log(calculRecursive(5));
+//     console.log(calculRecursive(5));
     
     
     // function sommeNonRecursive(n){
@@ -88,48 +88,48 @@ function calculRecursive(n){
     
     // console.log(tri(tab));
     
-    // ________________________ Step 2 recherche recursive ______________________________
+    // // ________________________ Step 2 recherche recursive ______________________________
     
     
-    var min = 0;
-    var max = tab.length;
+    // var min = 0;
+    // var max = tab.length;
     
     
-    function rechercheRecursive(tab,min,max,rechercheUt){
+    // function rechercheRecursive(tab,min,max,rechercheUt){
     
-        var mediane = parseInt((max-min)/2)+min;
+    //     var mediane = parseInt((max-min)/2)+min;
         
-        if (!max-min>=2){
+    //     if (!max-min>=2){
             
-            return "la recherche n'a pas abouti lel" + false;
+    //         return "la recherche n'a pas abouti lel" + false;
             
-        } else if (rechercheUt === tab[mediane]) {
+    //     } else if (rechercheUt === tab[mediane]) {
             
-            return "la postion de votre recherche est ici : " + (mediane + 1);
+    //         return "la postion de votre recherche est ici : " + (mediane + 1);
     
-        } else if (rechercheUt > tab[mediane]){
+    //     } else if (rechercheUt > tab[mediane]){
     
-            return rechercheRecursive(tab,mediane,max,rechercheUt);
+    //         return rechercheRecursive(tab,mediane,max,rechercheUt);
     
-        } else {
+    //     } else {
     
-            return rechercheRecursive(tab,min,mediane,rechercheUt);
+    //         return rechercheRecursive(tab,min,mediane,rechercheUt);
     
-        }
+    //     }
     
-    }
+    // }
     
-    // console.log(rechercheRecursive(tri(tab),min,max,251));
+    // // console.log(rechercheRecursive(tri(tab),min,max,251));
 
-    //_______________________________ Fonction de la recherche formulaire utilisateur recursive __________________________________
+    // //_______________________________ Fonction de la recherche formulaire utilisateur recursive __________________________________
 
-    // searchRecurseUser => input recherche utilisateur formulaire
-    // validerSearchRecurseUser => bouto, validation formulaire utilisateur
+    // // searchRecurseUser => input recherche utilisateur formulaire
+    // // validerSearchRecurseUser => bouto, validation formulaire utilisateur
 
-    $("#validerSearchRecurseUser").on("click",function(){
+    // $("#validerSearchRecurseUser").on("click",function(){
 
-        var rechercheUt = parseInt($("#searchRecurseUser").val());
-        console.log(rechercheUt);
+    //     var rechercheUt = parseInt($("#searchRecurseUser").val());
+    //     console.log(rechercheUt);
 
-        $("#reponse_recursive").prepend("<p>"+rechercheRecursive(tri(tab),min,max,rechercheUt)+"</p>");
-    });
+    //     $("#reponse_recursive").prepend("<p>"+rechercheRecursive(tri(tab),min,max,rechercheUt)+"</p>");
+    // });

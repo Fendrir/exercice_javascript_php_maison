@@ -37,13 +37,13 @@ function rechercheDicotomique(tab,rechercheUt){
 
     //_______________________________ Fonction de la recherche formulaire utilisateur non recursive __________________________________
 
-    // searchRecurseUser => input recherche utilisateur formulaire
-    // validerSearchRecurseUser => bouto, validation formulaire utilisateur
+    // searchNonRecurseUser => input recherche utilisateur formulaire
+    // validerNonSearchRecurseUser => bouton validation formulaire utilisateur
 
     $("#validerSearchNonRecurseUser").on("click",function(){
         
                 var rechercheUt = parseInt($("#searchNonRecurseUser").val());
-                console.log(rechercheUt);
         
                 $("#reponse_non_recursive").prepend("<p>"+rechercheDicotomique(tri(tab),rechercheUt)+"</p>");
-            });
+
+    });

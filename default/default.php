@@ -21,9 +21,8 @@
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="js/array_desordre.js"></script>
     <script src="js/tri_tableau.js"></script>
-    <script src="js/app.js"></script>
     <script src="js/recherche_dicotomique.js"></script>
-    <script src="js/recursive.js"></script>
+    <script src="js/recherche_recursive.js"></script>
 
 </body>
 </html>
