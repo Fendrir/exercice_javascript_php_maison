@@ -14,6 +14,8 @@ if(htmlspecialchars(isset($_GET['p']), ENT_QUOTES)){
 ob_start();
 if($p === 'home'){
     include('pages/home.php');
+}elseif($p === 'recherche_js'){
+    include('pages/recherche_js.php');
 }
 $content = ob_get_clean();
 include('default/default.php');

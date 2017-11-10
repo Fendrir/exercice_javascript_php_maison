@@ -1,79 +1,19 @@
 <div class="container">
 
     <div class="row">
-            
-        <div class="col-md-12">
-                
-            <h1>Mon super exercice php et javascript</h1>
-                
-        </div>
-            
-    </div>
-
-    <div class="row">
     
         <div class="col-md-12">
         
-            <h2>ici j'ai une réponse récursive dicotomique de ma recherche</h2>
+            <h1>Le site du paradis de la recherche</h1>
 
-
-            <div class="form-inline">
-
-                <div class="form-group">
-
-                    <label for="searchRecurseUser">Entrez un ciffre entre 1 et 1000:</label>
-                    <input type="text" class="form-control" id="searchRecurseUser">
-                    <button type="submit" class="btn btn-success" id="validerSearchRecurseUser">Valider</button>
-
-                </div>
-            
-            </div>
-
-            <h3>Le resultat de votre recherche est ici :</h3>
-
-            <div>
-            
-                <p id="reponse_recursive"></p>
-            
-            </div>
+            <p>
+                Ici vous trouverez quelques façons différente de pouvoir effectuer une recherche dans un tableau en javascript et en php.</br>
+                Vous pouvez naviguer sur les différents onglets sur le site afin de pouvoir explorer des façon bien différentes dans les onglets Javascript et Php.</br>
+                Chacun des exemples auront pour point commun un tableau remplis de façon aleatoire à chiffre unique de 1 à 1000.</br>
+            </p>
         
         </div>
-
-        
-            
-    </div>
-
-    <div class="row">
     
-        <div class="col-md-12">
-        
-            <h2>ici j'ai une réponse non récursive dicotomique de ma recherche</h2>
-
-
-            <div class="form-inline">
-
-                <div class="form-group">
-
-                    <label for="searchNonRecurseUser">Entrez un ciffre entre 1 et 1000:</label>
-                    <input type="text" class="form-control" id="searchNonRecurseUser">
-                    <button type="submit" class="btn btn-success" id="validerSearchNonRecurseUser">Valider</button>
-
-                </div>
-            
-            </div>
-
-            <h3>Le resultat de votre recherche est ici :</h3>
-
-            <div>
-            
-                <p id="reponse_non_recursive"></p>
-            
-            </div>
-        
-        </div>
-
-        
-            
     </div>
 
 </div>
