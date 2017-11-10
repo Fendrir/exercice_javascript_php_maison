@@ -12,13 +12,16 @@
 </head>
 <body>
     
-    <?= include("asset/nav_bar/nav_bar.php")?>
 
+
+<div class="container">
     <?= $content ?>
+</div>
 
 
 
     <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="js/gestion_class_nav_bar.js"></script>
     <script src="js/array_desordre.js"></script>
     <script src="js/tri_tableau.js"></script>
     <script src="js/recherche_dicotomique.js"></script>

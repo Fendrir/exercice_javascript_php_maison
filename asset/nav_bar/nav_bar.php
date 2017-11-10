@@ -4,24 +4,24 @@
       <a class="navbar-brand">Mon super site</a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="?p=home">Home</a></li>
-      <li class="active"><a href="?p=recherche_js">Recherche Javascript</a></li>
+      <li class="active" id=""><a href="?p=home">Home</a></li>
+      <li class="" id=""><a href="?p=recherche_js">Recherche Javascript</a></li>
+      <li class="" id=""><a href="?p=recherche_php">Recherche Php</a></li>
 
     </ul>
 
-                <!-- partie recherche avec le menu déroulant -->
+                <!-- partie recherche -->
 
     <ul class="nav navbar-nav navbar-right">
       
-    <form class="navbar-form form-inline" method="GET" action="?p=home">
-
-                    <!-- Bouton de recherche -->
+      <form class="navbar-form form-inline" method="GET" action="?p=home">
     
-      <div class="form-group">
-        <input type="text" class="form-control" placeholder="Search" name="search">
-      </div>
-      <button type="submit" class="btn btn-success">Submit</button>
-    </form>
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search" name="search">
+        </div>
+        <button type="submit" class="btn btn-success">Submit</button>
+
+      </form>
     </ul>
 
   </div>

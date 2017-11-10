@@ -14,7 +14,7 @@
     
         <div class="col-md-12">
         
-            <h2>ici j'ai une réponse récursive dicotomique de ma recherche</h2>
+            <h2>ici j'ai une réponse récursive dichotomique de ma recherche</h2>
 
 
             <div class="form-inline">
@@ -47,7 +47,7 @@
     
         <div class="col-md-12">
         
-            <h2>ici j'ai une réponse non récursive dicotomique de ma recherche</h2>
+            <h2>ici j'ai une réponse non récursive dichotomique de ma recherche</h2>
 
 
             <div class="form-inline">
