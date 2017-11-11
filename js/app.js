@@ -32,17 +32,17 @@
 // tab.sort(function(i, j) {
 
 //     if (i < j) {
-            
+
 //         return -1;
-            
+
 //     } else if (i > j) {
-            
+
 //         return 1;
-            
+
 //     } else {
-            
+
 //         return 0;
-            
+
 //     }
 
 // });
@@ -80,9 +80,9 @@
 
 //         }
 
-        
+
 //     }
-    
+
 //     return tab;
 
 // };
@@ -133,7 +133,7 @@
 //         }
 
 //     }
-    
+
 // }
 
 // console.log(recherche(tab,838));
@@ -169,7 +169,7 @@
 //         }
 
 //     }
-    
+
 //     return tab;
 
 // };
@@ -186,13 +186,13 @@
 
 
 // function rechercheDicotomique(tab,rechercheUt){
-    
+
 //     var min = 0;
 //     var max = tab.length;
 //     var trouver = false;
 
 //     var valMediane;
-    
+
 //     while (!trouver && (max-min>=2)) {
 
 //         valMediane = parseInt((max-min)/2)+min; // Création de l'indice de la mediane du tableau
@@ -204,13 +204,13 @@
 //         }else if (tab[valMediane]>rechercheUt){
 
 //             max = valMediane;                     // Positionnement sur l'intervalle inférieur
-            
+
 //         }else{
-            
+
 //             min = valMediane;                     // Positionnement sur l'intervalle supérieur
 
 //         }
-        
+
 //     }
 
 //     return trouver?"le numéro se trouve à la position : "+(valMediane+1):"Le numéro n'est pas dans le tableau";     // retour de la position si trouvé sinon message d'erreur
